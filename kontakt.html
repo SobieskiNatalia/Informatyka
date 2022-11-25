@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+
+<html lang="en">
+
+	<head>
+	
+		<meta charset="UTF-8">
+		
+		<title>kontakt</title>
+		
+		<link rel="stylesheet" href="style.css">
+		
+	</head>
+	
+	<body>
+	
+		<header>
+			
+			<nav>
+			
+					<a href="Index.html">Strona główna</a><br>
+					<a href="https://www.bing.com/images/search?q=krak%c3%b3w&form=HDRSC3&first=1&tsc=ImageHoverTitle">Galeria</a><br>
+					<a href="kontakt.html">Kontakt</a><br>
+			
+			</nav>
+			
+		</header>
+	
+		<main>
+		
+			<h2>Kontakty</h2>
+			
+			<p>Informacja zwrotna</p>
+		
+			<h3>Opisz swoje problemy. Wypełnij formularz</h3>
+		
+			<form>
+			
+			<div>
+				<label>Imię: </label>
+				<input class="form-group" type="text" name="name" id="name" required />
+			</div>
+			
+			<div>
+				<label>Nazwisko:</label>
+				<input class="form-group" type="text" name="surname" id="surname" required />
+			</div>
+			
+			<div>
+				Płeć:
+				<label class="gender">Mężczyzna</label>
+				<input type="radio" name="gender" value="male" />
+				<label class="gender">Kobieta</label>
+				<input type="radio" name="gender" value="female" />
+			</div>
+			
+			<div>
+				<label>Data urodzenia:</label>
+				<input class="form-group" type="date" name="birthDate" />
+			</div>
+			
+			<div>
+				<label>Wybierz województwo</label>
+				<select class="form-group" name="voivodeship">
+					<option>--None--</option>
+					<option>małopolskie</option>
+					<option>mazowieckie</option>
+					<option>podkarpackie</option>
+				</select>
+			</div>
+			
+			<div>
+				<label>Komentarz:</label>
+				<textarea class="form-group" name="comment" cols="30" rows="3"></textarea>
+			</div>
+			
+			<div class="form-group">
+				<button type="reset">Wyczyść</button>
+				<button type="submit">Wyślij</button>
+			</div>
+			
+			</form>
+		
+		</main>
+		
+		<footer>
+	
+			<p>Copyright Example 2022-2023</p>
+	
+		</footer>
+	
+	</body>
+	
+</html>
