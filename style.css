@@ -25,6 +25,10 @@ main{
 		
 }
 
+img{
+	border: 3px solid #ffffff;
+}
+	
 table{
 	border:3px solid grey;
 }
